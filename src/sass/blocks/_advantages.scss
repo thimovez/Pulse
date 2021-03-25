@@ -1,13 +1,7 @@
 .advantages {
     min-height: 470px;
-    padding: 70px 0 82px 0;
-    &__mainheader {
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 30px;
-        color: #0D0D0D;
-        text-align: center;
-    }
+    padding: 70px 0 60px 0;
+    background-color: #f6f6f6;
     &__icons {
         display: flex;
         justify-content: space-between;
@@ -25,11 +19,15 @@
         margin-top: 30px;
     }
     &__subheader {
+        width: 270px;
         font-weight: 300;
         font-size: 14px;
         color: #0D0D0D;
         line-height: 18px;
         text-align: center;
         margin-top: 20px;
+    }
+    &__sublink {
+        color: red;
     }
 }

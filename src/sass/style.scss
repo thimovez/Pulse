@@ -1,8 +1,13 @@
 @import 'base/variables';
+@import 'base/mixin';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/title';
+@import 'blocks/forms';
+@import 'blocks/carousel';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     padding: 0;
