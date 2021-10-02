@@ -32,7 +32,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('deploy', function() {
-    return gulp.src('./src/index.html')
+    return gulp.src('./src/**/*')
         .pipe(ghPages());
 });
 
